@@ -16,6 +16,18 @@ class MyApp extends StatelessWidget {
           title: const Text("AppBar Demo"),
         ),
         body: const Text("Body of the Flutter App"),
+        bottomNavigationBar: BottomNavigationBar(
+          items: const [
+            BottomNavigationBarItem(
+              icon: Icon(Icons.home),
+              label: "Home"
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.person),
+              label: "Profile"
+            )
+          ],
+        ),
       ),
     );
   }
