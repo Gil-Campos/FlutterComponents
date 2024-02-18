@@ -13,8 +13,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('AppBar Demo'),
+          title: const Text("AppBar Demo"),
         ),
+        body: const Text("Body of the Flutter App"),
       ),
     );
   }
